@@ -31,3 +31,12 @@ Truy cập: http://127.0.0.1:8000
 mkdocs build
 ```
 Output nằm trong thư mục `site/` (static HTML hoàn chỉnh).
+
+## GitHub Pages (CI)
+Workflow đã được cấu hình tại `.github/workflows/deploy-pages.yml`.
+
+Cần bật GitHub Pages:
+- Vào Settings → Pages
+- Build and deployment: chọn **GitHub Actions**
+
+Sau khi push lên nhánh `main`, site sẽ được deploy tự động.
