@@ -6,6 +6,13 @@ theme:
     - navigation.expand
     - navigation.sections
 
+markdown_extensions:
+  - pymdownx.superfences
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - js/mermaid-init.js
+
 nav:
   - Overview: index.md
   - Architecture: architecture.md
@@ -13,3 +20,4 @@ nav:
       - AST: api/ast.md
       - SQMS: api/sqms.md
   - Iframe POC: iframe-poc.md
+  - Mermaid POC: mermaid-poc.md
