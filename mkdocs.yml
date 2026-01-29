@@ -1,0 +1,14 @@
+site_name: "Privacy Sandbox Docs"
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+
+nav:
+  - Overview: index.md
+  - Architecture: architecture.md
+  - API:
+      - AST: api/ast.md
+      - SQMS: api/sqms.md
